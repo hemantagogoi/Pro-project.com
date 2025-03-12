@@ -1,0 +1,315 @@
+body{
+    width: 100%;
+    height: 1300px;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 30px 0;
+    margin-left: 0;
+    text-align: center;
+    position:fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Style for the unordered list inside the navbar */
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for each list item */
+.nav-list li {
+    display: inline;
+    margin: 0 80px;
+    text-decoration: none;
+    color: rgb(192, 119, 119)
+}
+
+/* Style for the links */
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for links */
+.nav-list a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+    text-decoration: none;
+    color: rgb(192, 119, 119)
+}
+
+#search:hover{
+    box-shadow: 0 0 5px cyan,
+                0 0 25px cyan,
+                0 0 50px cyan,
+                0 0 100px cyan,
+                0 0 200px cyan,
+                0 0 400px cyan;
+box-sizing:inherit;
+  touch-action: cross-slide-y;
+transition: 1ms;
+transition-behavior:var(#72d9f6)
+
+}
+h1{
+    color: white;
+    font-style: italic;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+     background-color: #333;
+}
+#containar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:773px;
+    background: linear-gradient(300deg, white, #000000);
+}
+#containar div{
+    height: 773px;
+    width: 700px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 30px;
+    border: 1px solid #333;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 255, 255, 0.6); 
+    background-color: #ffffff;
+    color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-sizing: border-box;
+    text-decoration: none;
+ 
+}
+.paragraph{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 38px;
+    color: #002639;
+    font-weight: 400;
+}
+.switch1{
+    width:650px;
+    height:150px;
+    margin-left: 25px;
+    margin-top:30px;
+    background-color: rgb(229 231 235);
+    border:0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+    font-display:initial ;
+    text-decoration:none;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 0 0 2px cyan;
+}
+ .switch1:hover{
+    box-shadow: 0 0 5px cyan,
+                0 0 25px cyan,
+                0 0 50px cyan,
+                0 0 100px cyan,
+                0 0 200px cyan,
+                0 0 400px cyan;
+box-sizing:inherit;
+  touch-action: cross-slide-y;
+transition: 1ms;
+transition-behavior:var(#72d9f6) ;
+}
+.switch2{
+    width:650px;
+    height:150px;
+    margin-left: 25px;
+    margin-top:30px;
+    background-color: #60848f ;
+    border:0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    font-display:initial ;
+    text-decoration:none;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 0 0 2px cyan;
+}
+ .switch2:hover{
+    box-shadow: 0 0 5px cyan,
+                0 0 25px cyan,
+                0 0 50px cyan,
+                0 0 100px cyan,
+                0 0 200px cyan,
+                0 0 400px cyan;
+box-sizing:inherit;
+  touch-action: cross-slide-y;
+transition: 1ms;
+transition-behavior:var(#72d9f6) ;
+}
+.switch3{
+    width:650px;
+    height:150px;
+    margin-left: 25px;
+    margin-top:30px;
+    background-color:rgb(40, 30, 26) ;
+    border:0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    font-display:initial ;
+    text-decoration:none;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 0 0 2px cyan;
+}
+ .switch3:hover{
+    box-shadow: 0 0 5px cyan,
+                0 0 25px cyan,
+                0 0 50px cyan,
+                0 0 100px cyan,
+                0 0 200px cyan,
+                0 0 400px cyan;
+box-sizing:inherit;
+  touch-action: cross-slide-y;
+transition: 1ms;
+transition-behavior:var(#72d9f6) ;
+}
+.switch4{
+    width:650px;
+    height:150px;
+    margin-left: 25px;
+    margin-top:30px;
+    background-color:#f8A5C2 ;
+    border:0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    font-display:initial ;
+    text-decoration:none;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 0 0 2px cyan;
+}
+ .switch4:hover{
+    box-shadow: 0 0 5px cyan,
+                0 0 25px cyan,
+                0 0 50px cyan,
+                0 0 100px cyan,
+                0 0 200px cyan,
+                0 0 400px cyan;
+box-sizing:inherit;
+  touch-action: cross-slide-y;
+transition: 1ms;
+transition-behavior:var(#72d9f6) ;
+}
+/* Basic footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+/* Footer container for sections */
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+/* Individual footer sections */
+.footer-section {
+    max-width: 200px;
+}
+
+.footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section p, .footer-section ul {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer-section li {
+    margin: 5px 0;
+}
+
+/* Social media links */
+.social-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.social-links a:hover {
+    color: #f39c12;
+}
+
+/* Bottom footer */
+.footer-bottom {
+    background-color: #222;
+    padding: 10px 0;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 12px;
+}
+.dropdown-content {
+    height: 300px;
+    width: 100%;
+    background-image: url(01042023_1680322369.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    
+}
+.button {
+    color: rgb(255, 255, 255);
+    margin-top: 220px;
+    margin-left: 46%;
+    background-color: #3300ff;
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+    text-transform: initial;
+    width: 130px;
+    height: 50px;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative; /* Needed to move the button down */
+    transition: transform 0.3s ease, background-color 0.3s ease; 
+    
+}
+
+/* Change color when hovering over the button */
+.dropdown-content button:hover {
+    background-color: #f31212;
+    color: #0d0202;
+    transform: translateY(10px); 
+    touch-action: cross-slide-y;
+    transition: 1s;
+}
+
+
